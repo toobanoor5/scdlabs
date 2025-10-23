@@ -3,10 +3,14 @@ package lab2;
 class task1 {
 
 	public static void main(String[] args) {
-		int x=4;
-		int y=3;
-		int sum=x+y;
-		System.out.println("sum:" + sum);
+		int a =10;
+		if(a>0) {
+			System.out.println("Number is positive");
+		}
+		else {
+			System.out.println("Number is negative");
+	
+		}
 	}
 
 }
